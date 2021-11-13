@@ -1,0 +1,89 @@
+(DELETE LATER)
+- 0.1 is about the Main Page/GUI
+- 0.2 is about the Pickup/Delivery selection
+- 0.3 is about customer information entering
+- 0.4 is about coffee order selection
+- 0.5 is about current price viewing
+- 0.6 is about the New Order feature
+- 0.7 is about the Print Order feature
+- 0.8 is about the Quit program feature (Yes, I am keepin these three components seperate. Don't go against this)
+
+
+
+CapitalCoffee 0.1.1a.py
+- Created basic tkinter window
+
+CapitalCoffee 0.1.1b.py
+- Set a defined size for the tkinter window
+- Gave the tkinter window a name
+- Defined the coffees as variables
+
+CapitalCoffee 0.1.1c.py
+- Changed the method of programming from functional to object oriented
+
+CapitalCoffee 0.1.2a.py
+- Added placeholder Pickup/Delivery buttons
+- Began adding code for handling cost in the future
+
+CapitalCoffee 0.1.2b.py
+- Made the Pickup/Delivery buttons trigger a cost update (delivery charge)
+
+CapitalCoffee 0.1.2c.py
+- Adjusted the sizing and placement of the Pickup/Delivery buttons to remain at the top and expand to fill the space of the window
+
+CapitalCoffee 0.1.3a.py
+- Created the customer information section, with entry widgets and labels for customer name, customer address, and phone number
+
+CapitalCoffee 0.1.4a.py
+- Created the coffee ordering section, with 5 labels and dropdown menus to select coffee from
+
+CapitalCoffee 0.1.4b.py
+- Made the coffee dropdown menus trigger a cost update (coffee price) when changed
+
+CapitalCoffee 0.1.4c.py
+- Adjusted the sizing and placement of the labels and dropdown menus to expand to fill out the width of the window
+
+CapitalCoffee 0.1.5a.py
+- Set up a label that displays the running cost (currently a placeholder)
+
+CapitalCoffee 0.1.5b.py
+- Added functionality to update the displayed running cost
+
+CapitalCoffee 0.1.6a.py
+- Added a 'New Order' button in a menu at the top of the window to restart the program
+
+CapitalCoffee 0.1.7a.py
+- Added a 'Print Order' button in a menu at the top of the window to print a receipt/summary of the order to the coffee_one_option_selected
+
+CapitalCoffee 0.1.8a.py
+- Added a 'Quit' button in a menu at the top of the window to quit the program
+
+CapitalCoffee 0.2.1a.py
+- Added a margin to the edge of the window to help the program feel less cramped and to prevent people from accidentally clicking off at the edges
+
+CapitalCoffee 0.2.2a.py
+- Changed what Customer Information entry widgets were enabled based on which order option (Delivery or Pickup) the user had selected
+
+CapitalCoffee 0.2.3a.py
+- Fixed the Coffee options labels not aligning properly
+
+CapitalCoffee 0.2.3b.py
+- Fixed the Coffee options dropdown menus so that a 'later' menu (e.g menu 4) cannot have a coffee option in it until the one preceding it (menu 3) has one
+
+CapitalCoffee 0.2.4a.py
+- Revamped the entire 'Print Order' function to print to a toplevel widget (a popup window) instead of the terminal
+
+CapitalCoffee 0.2.5a.py
+- Added error control to prevent the user from printing the order without key information (e.g customer name, an actual order, Delivery or Pickup, etc)
+
+CapitalCoffee 0.3.1a.py
+- Gave the window a set size (350x400) to prevent resizing
+
+CapitalCoffee 0.3.2a.py
+- Fixed the customer einformation labels not aligning
+
+CapitalCoffee 0.3.3a.py
+- Fixed a bug preventing phone numbers from being entered properly
+- The program now creates a text file with the receipt in it alongside the popup window
+- Improved code to match PEP8 conventions
+
